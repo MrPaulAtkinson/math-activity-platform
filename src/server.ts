@@ -25,7 +25,7 @@ const app = createApp({
   db: openDb(dbFile),
   ai: createAi(),
   teacherPasscode,
-  desmos: { apiKey: desmosApiKey, version: process.env.DESMOS_API_VERSION || "v1.10" },
+  desmos: { apiKey: desmosApiKey, version: process.env.DESMOS_API_VERSION || "v1.11" },
 });
 
 app.listen(port, () => {

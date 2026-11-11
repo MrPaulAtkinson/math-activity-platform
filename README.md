@@ -28,7 +28,7 @@ Without an API key everything except the AI features works: you can still paste 
 | `ANTHROPIC_API_KEY` | Claude API key. Needed for writing activities and hints. |
 | `TEACHER_PASSCODE` | Password for the teacher pages. If empty, a random one is printed when the server starts. |
 | `DESMOS_API_KEY` | Desmos API key. Defaults to Desmos's public **demo key**, which is for development only: get your own from Desmos before using this with a class. |
-| `DESMOS_API_VERSION` | Desmos API version to load (default `v1.10`). |
+| `DESMOS_API_VERSION` | Desmos API version to load (default `v1.11`). |
 | `PORT` | Default 3000. |
 | `DATABASE_FILE` | SQLite file, default `data/app.db`. |
 
